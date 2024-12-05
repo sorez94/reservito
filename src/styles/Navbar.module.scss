@@ -12,6 +12,12 @@ $iconHoverColor: #8EAE1B;
   font-family: 'Vazirmatn', serif;
 }
 
+.menuItems:hover {
+  color: $iconHoverColor;
+  cursor: pointer;
+}
+
+
 .reservito {
   color: $reservitoFontColor;
   font-weight: bold;

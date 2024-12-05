@@ -1,0 +1,51 @@
+$backgroundColor: #312F2F;
+$textColor: #F4F4F4;
+
+.sloganSec{
+  background-color: $backgroundColor;
+  width: 100%;
+  height: 479px;
+  color: $textColor;
+}
+
+.sloganSec h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 42px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 277px 277px 277px 277px;
+  height: 306px;
+  gap: 29px;
+  margin: 0px;
+  justify-content: center;
+}
+
+.featuresBorder {
+  padding: 20px;
+  margin-top: 80px;
+  position: relative;
+  border: 2px solid $backgroundColor;
+  border-radius: 7px;
+  box-shadow: -3px -3px 10px rgba(225, 217, 217, 0.2);
+}
+
+.featuresBorder img {
+  position: absolute;
+  top: -40px;
+  left: 40%;
+}
+
+.featuresBorder h1 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.featuresBorder p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 30px;
+}

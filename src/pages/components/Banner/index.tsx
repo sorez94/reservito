@@ -9,12 +9,14 @@ const Index = () => {
         position: 'relative',
         width: '76px',
         height: '87px',
+        marginRight: '30px',
     };
 
     const baseImageStyle:any = {
         position: 'absolute',
         top: '0',
         left: '0',
+        right: '30px',
         width: '100%',
         height: '100%',
         objectFit: 'cover',
@@ -22,15 +24,16 @@ const Index = () => {
 
     const rotatedImageStyle:any = {
         ...baseImageStyle,
+        right: '0px',
         transform: 'rotate(80deg)', // Adjust rotation angle
         zIndex: 1, // Ensures it appears above the base image
     };
     return (
-        <div style={{margin: '170px 127px 0 0'}}>
+        <div style={{ marginTop: 170, paddingRight:127, position: 'relative', width: '100%' }}>
             <span className={styles.bannerSlogan}> وقتشه به <span
                 className={styles.health}> سلامتیت</span> اهمیت بدی</span>
-            <p style={{marginTop: 21, fontSize: 20}}>با چند تا کلیک ساده غذای سالم خونگی سفارش بده :)</p>
-            <div style={{display: 'flex', alignItems: 'center'}}>
+            <p style={{marginTop: 21, fontSize: 28, color: "#2C2C2C"}}>با چند تا کلیک ساده غذای سالم خونگی سفارش بده :)</p>
+            <div style={{display: 'flex', alignItems: 'center', marginTop: 50}}>
                 <div
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
@@ -61,6 +64,7 @@ const Index = () => {
                     />
                 </div>
             </div>
+            <Image style={{position: 'absolute', bottom: -260, left: 0}} src={'/icons/pallet.png'} alt={'pallet'} width={394} height={854}/>
         </div>
     );
 };
