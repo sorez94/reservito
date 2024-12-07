@@ -43,7 +43,7 @@ const Index = () => {
             </div>
             <div className={styles.design}>
                 <p style={{color: "#ABABAB"}}>طراحی و پیاده سازی توسط</p>
-                <div onClick={()=> window.open("https://sorez.org", "_blank")} className={styles.sorez}>
+                <div onClick={()=> window.open("https://www.sorez.org", "_blank")} className={styles.sorez}>
                     <span style={{color: 'white'}}> Rez</span><span style={{color: "#457EAB"}}>So</span>
                 </div>
             </div>
