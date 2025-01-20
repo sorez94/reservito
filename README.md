@@ -11,9 +11,12 @@ Localization Support: Persian (Farsi) language and date support.
 Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.
 
 📦 Tech Stack
-Frontend: React.js / Next.js
-Styling: SCSS (CSS Modules)
+Frontend: React.js / Next.js.
+
+Styling: SCSS (CSS Modules).
+
 Backend: .Net
+
 Data Handling: JSON or API Integration
 
 🛠️ Installation
@@ -49,3 +52,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+📷 Screenshots
+![image](https://github.com/user-attachments/assets/8283a176-d11b-4d41-ad75-51d2842f5fc0)
+
+![image](https://github.com/user-attachments/assets/a774873b-418c-4033-85d7-3b1c491ed07c)
+
+✨ Roadmap
+ Add user authentication.
+ Implement payment gateway integration.
+ Enable multi-language support.
+ Add admin panel for managing menus and orders.
+ Fully optimized for desktops, tablets, and mobile devices.
+
+ 📝 License
+This project is licensed under the MIT License.
+
+
