@@ -17,7 +17,7 @@ export const revalidate = 3600; // Revalidate every hour
 
 const Page = async () => {
     const data = await fetch("http://localhost:3001/schedule");
-    const schedule: Schedule[] = await data.json();
+    const schedule: Array<ISchedule> = await data.json();
 
     return (
         <div style={{margin: '50px 190px'}}>
