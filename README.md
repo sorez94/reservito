@@ -1,7 +1,22 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+🍽️ Online Food Reservation System
+An intuitive web application for managing daily meal reservations. This system allows users to browse menus, check meal prices, reserve their favorite dishes, and manage their food orders with ease. Designed with a modern, responsive user interface.
 
+🚀 Features
+Daily Menu: Display meals with details like name, price, and availability.
+Reservation: Easy-to-use reservation functionality for breakfast or lunch.
+Responsive Design: Fully optimized for desktops.
+Localization Support: Persian (Farsi) language and date support.
+Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.
+
+📦 Tech Stack
+Frontend: React.js / Next.js
+Styling: SCSS (CSS Modules)
+Backend: .Net
+Data Handling: JSON or API Integration
+
+🛠️ Installation
 First, run the development server:
 
 ```bash
