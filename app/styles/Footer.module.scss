@@ -1,0 +1,74 @@
+$footerColor: #262626;
+$logoBorderColor: #C5DFC0;
+$reservitoFontColor: #5EAA51;
+$onlineReservitoFontColor: #4F4F4F;
+$menuItemFontColor: #6C8C66;
+
+.footer {
+  background-color: $footerColor;
+  height: 300px;
+  width: 100%;
+}
+
+.footerSection {
+  margin: 110px 0 60px 0;
+  width: 100%;
+  background-color: $footerColor;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 150px;
+}
+
+.logo {
+  margin-right: 7rem;
+  padding: 0 20px;
+  border-left: 3px solid $logoBorderColor;
+}
+
+.reservito {
+  color: $reservitoFontColor;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.onlineReservito {
+  color: $onlineReservitoFontColor;
+  font-size: 0.9rem;
+}
+
+.items {
+  display: flex;
+}
+
+.socialMedia {
+  display: flex;
+  color: $menuItemFontColor;
+  align-items: center;
+}
+
+.menuItems {
+  display: flex;
+  width: 170px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+  color: $menuItemFontColor;
+}
+
+.design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: break-spaces;
+}
+
+.sorez {
+  display: flex;
+  align-items: center;
+}
+
+.sorez:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+{
+  "posts": [
+    { "id": 1, "title": "Post 1", "content": "This is the first post." },
+    { "id": 2, "title": "Post 2", "content": "This is the second post." }
+  ],
+  "schedule": [
+    {
+      "id": 1,
+      "day": "شنبه",
+      "date": "01/11/2025",
+      "food": "زرشک پلو با مرغ",
+      "lunchPrice": 160000,
+      "breakfast": "عدسی",
+      "breakfastPrice": 70000
+    },
+    {
+      "id": 2,
+      "day": "یکشنیه",
+      "date": "01/12/2025",
+      "food": "قرمه سبزی",
+      "lunchPrice": 195000,
+      "breakfast": "",
+      "breakfastPrice": 0
+    },
+    {
+      "id": 3,
+      "day": "دوشنبه",
+      "date": "01/13/2025",
+      "food": "قیمه",
+      "lunchPrice": 190000,
+      "breakfast": "خوراک لوبیا",
+      "breakfastPrice": 80000
+    },
+    {
+      "id": 4,
+      "day": "سه شنبه",
+      "date": "01/14/2025",
+      "food": "کتلت",
+      "lunchPrice": 170000,
+      "breakfast": "",
+      "breakfastPrice": 0
+    },
+    {
+      "id": 5,
+      "day": "چهارشنبه",
+      "date": "01/15/2025",
+      "food": "ماکارانی",
+      "lunchPrice": 140000,
+      "breakfast": "عدسی",
+      "breakfastPrice": 70000
+    }
+  ]
+}

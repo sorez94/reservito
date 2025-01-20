@@ -1,0 +1,35 @@
+$healthColor: #389229;
+$iconColor: #5A9B4E;
+$iconHoverColor: #8EAE1B;
+$bannerTextColor: #2A2626;
+
+.health {
+  color: $healthColor;
+  font-size: 74px;
+  font-weight: bold;
+}
+
+.bannerSlogan {
+  font-size: 64px;
+  font-weight: bold;
+  color: $bannerTextColor;
+}
+
+.scheduleIcon {
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 58px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+  background-color: $iconColor;
+  display: flex;
+}
+
+.scheduleIcon:hover {
+  background-color: $iconHoverColor;
+}
+
+

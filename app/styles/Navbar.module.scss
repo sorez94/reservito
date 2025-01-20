@@ -1,0 +1,54 @@
+$menuItemFontColor: #307125;
+$reservitoFontColor: #5EAA51;
+$onlineReservitoFontColor: #4F4F4F;
+$logoBorderColor: #C5DFC0;
+$iconColor: #5A9B4E;
+$iconHoverColor: #8EAE1B;
+.menuItems {
+  margin : 0 1.1rem;
+  color: $menuItemFontColor;
+  font-weight: bold;
+  font-size: 1.4rem;
+  font-family: 'Vazirmatn', serif;
+}
+
+.menuItems:hover {
+  color: $iconHoverColor;
+  cursor: pointer;
+}
+
+
+.reservito {
+  color: $reservitoFontColor;
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.onlineReservito {
+  color: $onlineReservitoFontColor;
+  font-size: 0.9rem;
+}
+
+.logo {
+  margin-right : 7rem;
+  padding: 0 20px;
+  border-left: 3px solid $logoBorderColor;
+}
+
+.signUpIcon {
+  justify-content: center;
+  align-items: center;
+  width: 193px;
+  height: 58px;
+  margin-left: 106px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 7px;
+  background-color: $iconColor;
+  display: flex;
+}
+.signUpIcon:hover {
+  background-color: $iconHoverColor;
+}
+
