@@ -4,11 +4,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 An intuitive web application for managing daily meal reservations. This system allows users to browse menus, check meal prices, reserve their favorite dishes, and manage their food orders with ease. Designed with a modern, responsive user interface.
 
 🚀 Features
-Daily Menu: Display meals with details like name, price, and availability.
-Reservation: Easy-to-use reservation functionality for breakfast or lunch.
-Responsive Design: Fully optimized for desktops.
-Localization Support: Persian (Farsi) language and date support.
-Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.
+Daily Menu: Display meals with details like name, price, and availability.<br />
+Reservation: Easy-to-use reservation functionality for breakfast or lunch.<br />
+Responsive Design: Fully optimized for desktops.<br />
+Localization Support: Persian (Farsi) language and date support.<br />
+Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.<br />
 
 📦 Tech Stack
 Frontend: React.js / Next.js.
