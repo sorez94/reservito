@@ -9,19 +9,16 @@ Reservation: Easy-to-use reservation functionality for breakfast or lunch.<br />
 Responsive Design: Fully optimized for desktops.<br />
 Localization Support: Persian (Farsi) language and date support.<br />
 Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.<br />
-
+<br />
 📦 Tech Stack
-Frontend: React.js / Next.js.
-
-Styling: SCSS (CSS Modules).
-
-Backend: .Net
-
-Data Handling: JSON or API Integration
+Frontend: React.js / Next.js.<br />
+Styling: SCSS (CSS Modules).<br />
+Backend: .Net<br />
+Data Handling: JSON or API Integration<br /><br />
 
 🛠️ Installation
-First, run the development server:
-
+First, run the development server:<br />
+<br />
 ```bash
 npm install
 json-server --watch db.json --port 3001
@@ -56,16 +53,16 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 📷 Screenshots
-![image](https://github.com/user-attachments/assets/8283a176-d11b-4d41-ad75-51d2842f5fc0)
+![image](https://github.com/user-attachments/assets/8283a176-d11b-4d41-ad75-51d2842f5fc0)<br />
 
-![image](https://github.com/user-attachments/assets/a774873b-418c-4033-85d7-3b1c491ed07c)
+![image](https://github.com/user-attachments/assets/a774873b-418c-4033-85d7-3b1c491ed07c)<br />
 
 ✨ Roadmap
- Add user authentication.
- Implement payment gateway integration.
- Enable multi-language support.
- Add admin panel for managing menus and orders.
- Fully optimized for desktops, tablets, and mobile devices.
+ Add user authentication.<br />
+ Implement payment gateway integration.<br />
+ Enable multi-language support.<br />
+ Add admin panel for managing menus and orders.<br />
+ Fully optimized for desktops, tablets, and mobile devices.<br />
 
  📝 License
 This project is licensed under the MIT License.
