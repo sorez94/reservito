@@ -23,6 +23,7 @@ Data Handling: JSON or API Integration
 First, run the development server:
 
 ```bash
+npm install
 json-server --watch db.json --port 3001
 npm run dev 
 # or
