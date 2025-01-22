@@ -1,17 +1,6 @@
 import React from "react";
 import ScheduleTable from "@/app/schedule/components/ScheduleTable";
-import {Typography} from "@mui/material";
 import styles from './styles/Schedule.module.scss'
-
-interface Schedule {
-    id: string;
-    day: string;
-    date: string;
-    food: string;
-    lunchPrice: number;
-    breakfast: string;
-    breakfastPrice: number;
-}
 
 export const revalidate = 3600; // Revalidate every hour
 

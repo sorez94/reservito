@@ -49,5 +49,63 @@
       "breakfast": "عدسی",
       "breakfastPrice": 70000
     }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "چلوخورشت قیمه بادمجان",
+      "price": 170000,
+      "stars": 3.5,
+      "size": "تک نفره",
+      "image": "/images/food.png"
+    },
+    {
+      "id": 2,
+      "name": "چلوخورشت قیمه سیب زمینی",
+      "price": 180000,
+      "stars": 4,
+      "size": "تک نفره",
+      "image": "/images/food.png"
+    },
+    {
+      "id": 3,
+      "name": "چلوخورشت قرمه سبزی",
+      "price": 190000,
+      "stars": 5,
+      "size": "تک نفره",
+      "image": "/images/food.png"
+    },
+    {
+      "id": 4,
+      "name": "عدس پلو با گوشت چرخ کرده",
+      "price": 170000,
+      "stars": 2,
+      "size": "تک نفره",
+      "image": "/images/food.png"
+    },
+    {
+      "id": 5,
+      "name": "لوبیاپلو با گوشت گوسفندی",
+      "price": 170000,
+      "stars": 5,
+      "size": "تک نفره",
+      "image": "/images/food.png"
+    },
+    {
+      "id": 6,
+      "name": "جوجه کباب",
+      "price": 170000,
+      "stars": 5,
+      "size": "تک نفره",
+      "image": "/images/food.png"
+    },
+    {
+      "id": 7,
+      "name": "ماکارانی با گوشت چرخ کرده",
+      "price": 170000,
+      "stars": 5,
+      "size": "تک نفره",
+      "image": "/images/food.png"
+    }
   ]
 }

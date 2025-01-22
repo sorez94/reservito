@@ -4,7 +4,6 @@ import React from "react";
 import styles from '../styles/ScheduleTable.module.scss'
 
 const ScheduleTable = ({schedule}: { schedule: Array<ISchedule> }) => {
-    console.log(schedule)
     return (
         <div className={styles.table}>
             {/* Header */}
