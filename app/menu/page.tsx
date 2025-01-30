@@ -1,18 +1,13 @@
-import React from 'react';
-import MenuCard from "@/app/menu/menu-component/MenuCard";
+import React from "react";
+import MenuPage from "@/app/menu/menu-component/MenuPage";
+import {fetchFoods} from "@/app/menu/data/foodsData";
 
-export const revalidate = 3600; // Revalidate every hour
+async function delay(ms: number) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
-const Page = async () => {
-    const data = await fetch("http://localhost:3001/foods");
-    const foods: Array<IMenuCard> = await data.json();
-    const foodItem = foods.find((m:IMenuCard) => Number(m.id) === 1);
-
-    return (
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
-            {foodItem && <MenuCard food={foodItem} />}
-        </div>
-    );
-};
-
-export default Page;
+export default async function Page() {
+    await delay(20000)
+    const foods = await fetchFoods();
+    return <MenuPage foods={foods}/>
+}

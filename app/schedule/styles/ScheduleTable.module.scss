@@ -54,7 +54,7 @@
 }
 
 .reserveButton {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #307125;
   border: 1px solid #307125;
   padding: 5px 10px;
@@ -62,8 +62,38 @@
   height: 50px;
   cursor: pointer;
   border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 .reserveButton:hover {
-  background-color: #CDD8CA;
+  background-color: #cdd8ca;
 }
+
+.disabledButton {
+  background-color: #f0f0f0;
+  color: #a1a1a1;
+  border: 1px solid #dcdcdc;
+  cursor: not-allowed;
+}
+
+.loadingPlaceholder {
+  background-color: #949191;
+  border-radius: 4px;
+  width: 80%;
+  height: 20px;
+  margin: auto;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

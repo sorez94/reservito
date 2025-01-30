@@ -4,6 +4,8 @@ import Navbar from "@/app/home-components/Navbar";
 import Footer from "@/app/home-components/Footer";
 import "./globals.css";
 import React from "react";
+import ReactQueryProvider from "@/app/ReactQueryProvider";
+import { ToastContainer } from 'react-toastify';
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -32,7 +34,10 @@ const RootLayout = ({
         <html lang="en" dir="rtl" className={`${geistSans.variable} ${geistMono.variable}`}>
         <body className="antialiased">
         <Navbar/>
-        <main>{children}</main>
+        <ReactQueryProvider>
+            <ToastContainer />
+            <main>{children}</main>
+        </ReactQueryProvider>
         <Footer/>
         </body>
         </html>

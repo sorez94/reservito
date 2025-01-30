@@ -11,6 +11,14 @@ $iconHoverColor: #8EAE1B;
   color: #FF1212;
 }
 
+.notFoundText {
+  color: #FF1212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
 .note{
   color: #4C4C4C;
 }
@@ -39,4 +47,20 @@ $iconHoverColor: #8EAE1B;
 
 .registration:hover {
   background-color: $iconHoverColor;
+}
+
+.refetchBtn {
+  background: #FF1212;
+  margin: 0 20px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: 2px solid #FF1212;
+  color: #FFFFFF;
+}
+
+.rating {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  gap: 4px;
 }

@@ -27,8 +27,8 @@ const Index = () => {
                 <p className={styles.onlineReservito}> رزرو آنلاین غذای خانگی </p>
             </div>
             <div style={{display: 'flex', flexDirection: 'row'}}>
-                <Link className={styles.menuItems} href='/menu'> منو غذایی</Link>
-                <Link className={styles.menuItems} href='/schedule'>برنامه هفتگی</Link>
+                <Link className={styles.menuItems} prefetch={true} href='/menu'> منو غذایی</Link>
+                <Link className={styles.menuItems} prefetch={true} href='/schedule'>برنامه هفتگی</Link>
                 <h1 className={styles.menuItems}>مقالات</h1>
                 <h1 className={styles.menuItems}>درباره ما</h1>
             </div>
