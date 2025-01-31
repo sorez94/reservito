@@ -54,7 +54,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ![image](https://github.com/user-attachments/assets/d359e41d-dc78-41d2-83f0-5e4de86fc944)<br />
 
 
-<b>✨ Roadmap </b> <br />
+## ✨ Roadmap
  Add user authentication.<br />
  Implement payment gateway integration.<br />
  Enable multi-language support.<br />
