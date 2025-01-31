@@ -3,20 +3,20 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 🍽️ Online Food Reservation System
 An intuitive web application for managing daily meal reservations. This system allows users to browse menus, check meal prices, reserve their favorite dishes, and manage their food orders with ease. Designed with a modern, responsive user interface.
 
-🚀 <b> Features </b> <br />
+<b>🚀 Features </b> <br />
 Daily Menu: Display meals with details like name, price, and availability.<br />
 Reservation: Easy-to-use reservation functionality for breakfast or lunch.<br />
 Responsive Design: Fully optimized for desktops.<br />
 Localization Support: Persian (Farsi) language and date support.<br />
 Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.<br />
 <br />
-📦 Tech Stack
+<b>📦 Tech Stack  </b> <br />
 Frontend: React.js / Next.js.<br />
 Styling: SCSS (CSS Modules) / Tailwind.<br />
 Backend: .Net<br />
 Data Handling: JSON or API Integration<br /><br />
 
-🛠️ Installation
+<b>🛠️ Installation  </b> <br />
 First, run the development server:<br />
 <br />
 ```bash
@@ -46,13 +46,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-📷 Screenshots
+<b> 📷 Screenshots  </b> <br />
 ![image](https://github.com/user-attachments/assets/8283a176-d11b-4d41-ad75-51d2842f5fc0)<br />
 
 ![image](https://github.com/user-attachments/assets/a774873b-418c-4033-85d7-3b1c491ed07c)<br />
@@ -60,7 +54,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ![image](https://github.com/user-attachments/assets/d359e41d-dc78-41d2-83f0-5e4de86fc944)<br />
 
 
-✨ Roadmap
+<b>✨ Roadmap </b> <br />
  Add user authentication.<br />
  Implement payment gateway integration.<br />
  Enable multi-language support.<br />
