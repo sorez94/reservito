@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 🍽️ Online Food Reservation System
 An intuitive web application for managing daily meal reservations. This system allows users to browse menus, check meal prices, reserve their favorite dishes, and manage their food orders with ease. Designed with a modern, responsive user interface.
 
-<b>🚀 Features </b> <br />
+##<b>🚀 Features </b> <br />
 Daily Menu: Display meals with details like name, price, and availability.<br />
 Reservation: Easy-to-use reservation functionality for breakfast or lunch.<br />
 Responsive Design: Fully optimized for desktops.<br />
