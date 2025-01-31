@@ -10,13 +10,13 @@ Responsive Design: Fully optimized for desktops.<br />
 Localization Support: Persian (Farsi) language and date support.<br />
 Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.<br />
 <br />
-<b>📦 Tech Stack  </b> <br />
+## 📦 Tech Stack
 Frontend: React.js / Next.js.<br />
 Styling: SCSS (CSS Modules) / Tailwind.<br />
 Backend: .Net<br />
 Data Handling: JSON or API Integration<br /><br />
 
-<b>🛠️ Installation  </b> <br />
+## 🛠️ Installation
 First, run the development server:<br />
 <br />
 ```bash
@@ -46,7 +46,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-<b> 📷 Screenshots  </b> <br />
+## 📷 Screenshots
 ![image](https://github.com/user-attachments/assets/8283a176-d11b-4d41-ad75-51d2842f5fc0)<br />
 
 ![image](https://github.com/user-attachments/assets/a774873b-418c-4033-85d7-3b1c491ed07c)<br />
