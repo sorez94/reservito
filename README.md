@@ -12,7 +12,7 @@ Custom Styling: Sleek, user-friendly interface built with SCSS/CSS modules.<br /
 <br />
 📦 Tech Stack
 Frontend: React.js / Next.js.<br />
-Styling: SCSS (CSS Modules).<br />
+Styling: SCSS (CSS Modules) / Tailwind.<br />
 Backend: .Net<br />
 Data Handling: JSON or API Integration<br /><br />
 
@@ -56,6 +56,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ![image](https://github.com/user-attachments/assets/8283a176-d11b-4d41-ad75-51d2842f5fc0)<br />
 
 ![image](https://github.com/user-attachments/assets/a774873b-418c-4033-85d7-3b1c491ed07c)<br />
+
+![image](https://github.com/user-attachments/assets/d359e41d-dc78-41d2-83f0-5e4de86fc944)<br />
+
 
 ✨ Roadmap
  Add user authentication.<br />
