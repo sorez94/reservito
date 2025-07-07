@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import {useQuery} from "@tanstack/react-query";
-import {fetchFoodById} from "@/app/menu/[id]/foodsData";
 
 const ImageBanner = ({food}) => {
     return (

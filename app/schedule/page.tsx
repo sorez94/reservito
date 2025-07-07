@@ -5,20 +5,58 @@ import styles from './styles/Schedule.module.scss';
 import { useScheduleData } from './hooks/queries';
 
 const Page = () => {
-    const { data, isLoading, isError, error, refetch } = useScheduleData();
+    const data = [
+            {
+                id: 1,
+                day: "شنبه",
+                date: "01/11/2025",
+                food: "زرشک پلو با مرغ",
+                lunchPrice: 160000,
+                breakfast: "عدسی",
+                breakfastPrice: 70000
+            },
+            {
+                id: 2,
+                day: "یکشنیه",
+                date: "01/12/2025",
+                food: "قرمه سبزی",
+                lunchPrice: 195000,
+                breakfast: "",
+                breakfastPrice: 0
+            },
+            {
+                id: 3,
+                day: "دوشنبه",
+                date: "01/13/2025",
+                food: "قیمه",
+                lunchPrice: 190000,
+                breakfast: "خوراک لوبیا",
+                breakfastPrice: 80000
+            },
+            {
+                id: 4,
+                day: "سه شنبه",
+                date: "01/14/2025",
+                food: "کتلت",
+                lunchPrice: 170000,
+                breakfast: "",
+                breakfastPrice: 0
+            },
+            {
+                id: 5,
+                day: "چهارشنبه",
+                date: "01/15/2025",
+                food: "ماکارانی",
+                lunchPrice: 140000,
+                breakfast: "عدسی",
+                breakfastPrice: 70000
+            }
+        ]
 
     return (
         <div style={{ margin: '50px 190px' }}>
             <h2 className={styles.shoppingCart}>سبد خرید</h2>
-            {isError &&
-                <div className={styles.noteBox}>
-                    <p className={styles.notFoundText}>
-                        خطای {error.status} | در هنگام دریافت اطلاعات، خطا رخ داده است
-                        <button className={styles.refetchBtn} onClick={refetch}> بارگیری مجدد </button>
-                    </p>
-                </div>
-            }
-            <ScheduleTable queryParams={{isLoading, isError, error}} schedule={data?.data || []} />
+            <ScheduleTable  schedule={data || []} />
             <div className={styles.noteBox}>
                 <p className={styles.note}>
                     <span className={styles.attention}> مهم: </span>رزرو فقط تا ساعت 6 عصر روز قبل امکان پذیر می باشد.

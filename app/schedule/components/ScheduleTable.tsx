@@ -3,8 +3,7 @@ import React from "react";
 import styles from '../styles/ScheduleTable.module.scss';
 import { ISchedule } from "@/app/schedule/interface/ISchedule";
 
-const ScheduleTable = ({ schedule, queryParams }: { schedule: Array<ISchedule>, queryParams: { isLoading: boolean, isError: boolean, error: any } }) => {
-    const { isLoading, isError } = queryParams;
+const ScheduleTable = ({ schedule }: { schedule: Array<ISchedule> }) => {
 
     const renderRow = (row: ISchedule | null, index: number) => (
         <div className={styles.tableRow} key={index}>
@@ -46,45 +45,7 @@ const ScheduleTable = ({ schedule, queryParams }: { schedule: Array<ISchedule>, 
                 <div className={styles.tableHeaderCell}>قیمت</div>
                 <div className={styles.tableHeaderCell}></div>
             </div>
-
-            {/* Table Rows */}
-            {isLoading ? (
-                // Show loading placeholders
-                Array(5).fill(null).map((_, index) => (
-                    <div className={styles.tableRow} key={index}>
-                        <div className={styles.tableFirstCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                        <div className={styles.tableCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                        <div className={styles.tableCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                        <div className={styles.tableCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                        <div className={styles.tableCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                        <div className={styles.tableCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                        <div className={styles.tableCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                        <div className={styles.tableCell}>
-                            <div className={styles.loadingPlaceholder}></div>
-                        </div>
-                    </div>
-                ))
-            ) : isError ? (
-                // Show table with null values
-                Array(5).fill(null).map((_, index) => renderRow(null, index))
-            ) : (
-                // Show actual rows
-                schedule.map((row: ISchedule, index) => renderRow(row, index))
-            )}
+            {schedule.map((row: ISchedule, index) => renderRow(row, index))}
         </div>
     );
 };
